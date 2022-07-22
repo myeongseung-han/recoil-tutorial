@@ -1,9 +1,10 @@
 import { RecoilRoot } from 'recoil';
+import CharacterCounter from './components/CharacterCounter';
 
 function App() {
   return (
     <RecoilRoot>
-      <div>Recoil Tutorial</div>
+      <CharacterCounter />
     </RecoilRoot>
   );
 }
