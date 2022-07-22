@@ -1,10 +1,10 @@
 import { RecoilRoot } from 'recoil';
-import CharacterCounter from './components/text-tutorial/CharacterCounter';
+import TodoList from './components/todo-tutorial/TodoList';
 
 function App() {
   return (
     <RecoilRoot>
-      <CharacterCounter />
+      <TodoList />
     </RecoilRoot>
   );
 }
