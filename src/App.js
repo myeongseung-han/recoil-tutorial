@@ -1,5 +1,5 @@
 import { RecoilRoot } from 'recoil';
-import CharacterCounter from './components/CharacterCounter';
+import CharacterCounter from './components/text-tutorial/CharacterCounter';
 
 function App() {
   return (

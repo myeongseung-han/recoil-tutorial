@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { textState } from "../recoil/states";
+import { textState } from "../../recoil/text-tutorial/states";
 
 function TextInput() {
     const [text, setText] = useRecoilState(textState);
